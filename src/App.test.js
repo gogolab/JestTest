@@ -33,7 +33,7 @@ test("object assignment", () => {
     expect(obi).toEqual({one: 2, two: 1});
 });
 
-test("adding positive numbers not equal zero", () => {
+test("adding positive numbers not equal zero (existential edition)", () => {
     for (let tob = 1; tob <= 10; tob++) {
         for (let eor = 1; eor <= 10; eor++) {
             expect(tob + eor).not.toBe(0);
